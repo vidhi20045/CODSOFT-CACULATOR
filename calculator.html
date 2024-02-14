@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="calculator.css" rel="stylesheet">
+</head>
+<body>
+    <h1> WELCOME TO MY CACULATOR</h1>
+    <DIV class="first" >
+    <!-- for all rows  -->
+    
+    <div class="TEXT">
+    <input id="display" readonly>
+</div>
+
+
+
+    <div class="second"></div>
+    <!-- for each row -->
+    <button  onclick="cleardisplay ()"  ><b>C</b></button> 
+    <button onclick="appendtodisplay ('')" Class=" button effects" ><b>MOD</b></button>
+    <button onclick="appendtodisplay ('%')" Class=" button effects" ><b>%</b></button>
+    <button onclick="calculate ('=')" Class=" button side" ><b>=</b></button>
+
+<div class="second" >
+    <!-- for eaach row  -->
+    
+    <button onclick="appendtodisplay ('7')"Class=" A1 button " >7</button>
+    
+    <button  onclick="appendtodisplay ('8')" Class=" A1 button ">8</button>
+    <button  onclick="appendtodisplay ('9')" Class="A1  button ">9</button>
+    <button  onclick="appendtodisplay ('-')" class="  A button  side "> -</button>
+    
+    </div>
+
+<div class="second" >
+    <!-- for each row-->
+    <button onclick="appendtodisplay ('4')" Class=" A1 button " >4</button>
+    <button  onclick="appendtodisplay ('5')" Class="A1 button ">5</button>
+    <button  onclick="appendtodisplay ('6')" Class="A1 button ">6</button>
+    <button  onclick="appendtodisplay ('/')" class=" A button  side "> /</button>
+</div>
+
+<div class="second" >
+    <!-- for each row  -->
+    <button onclick="appendtodisplay ('1')" Class="A1  button "  >1</button>
+    <button  onclick="appendtodisplay ('2')" Class="A1   button">2</button>
+    <button onclick="appendtodisplay ('3')" Class="A1   button ">3</button>
+    <button  onclick="appendtodisplay ('*')" class=" A button   side "> *</button>
+</div>
+
+<div class="second" >
+    <!-- for each row  -->
+    <button onclick="appendtodisplay ('.')" Class="   button  effects" >&#x2022;</button>
+    <button onclick="appendtodisplay ('0')"  Class="   button  effects  ">0</button>
+    <button  onclick="calculate ('()')" class=" button  effects "><b> ()</b></button>
+    <button  onclick="appendtodisplay ('+')" class=  "button   side  ">+ </button>
+    
+    
+</div>
+</DIV>
+
+
+
+
+
+
+
+
+   <script src="calculator.js" ></script>
+</body>
+</html>
